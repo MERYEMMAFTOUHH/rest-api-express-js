@@ -3,6 +3,9 @@ const app = express();
 const PORT = 3000;
 app.use(express.json());
 
+
+//  Test rest apis with express js
+
 // Handling GET request
 app.get("/get",(req,res)=>{
     console.log("get Request Successfull!");
